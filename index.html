@@ -33,7 +33,7 @@
                 I'm also interested in biomedical signal processing, of its combined / multi-modal data integration for comprehensive biomedical representation learning. 
               </p>
               <p>
-                I am actively looking for PhD positions starting from 2025 Spring/Fall. If you think I'm a good fit, please don't hesitate to get in touch! 
+                I am actively looking for PhD / RA positions starting from 2025 Spring/Fall. If you think I'm a good fit, please don't hesitate to get in touch! 
               </p>
               <p style="text-align:center">
                 <!-- <a href="https://scholar.google.com/citations?user=vwWiKP8AAAAJ">Google Scholar</a> &nbsp/&nbsp -->
@@ -41,8 +41,8 @@
                 <a href="data/CV.pdf">CV</a> &nbsp/&nbsp
                 <!-- <a href="https://scholar.google.ca/citations?user=zir09KwAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp -->
                 <!-- <a href="https://twitter.com/H_aoZhao">Twitter</a> &nbsp/&nbsp -->
-                <a href="https://github.com/PhilipLGQ">Github</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/guanqun-liu-88b947aa/">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/guanqun-liu-88b947aa/">LinkedIn</a> &nbsp/&nbsp
+                <a href="https://github.com/PhilipLGQ">Github</a> 
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -109,11 +109,16 @@
               <em>Prepared for preprint</em>
               <br>
               [<a href="https://drive.google.com/file/d/1k3k-U-1unsDSh0nvrIorKWHRxoPikopE/view?usp=sharing">Paper</a>]
-              [<a href="">Slides</a>]
+              [<a href="https://docs.google.com/presentation/d/1c-0Fm5WXYgdBNVqhIZ1wfCyMhemcQbGe/edit?usp=sharing&ouid=108300918368240195367&rtpof=true&sd=true">Presentation Slides</a>]
               <p></p>
               <p>
-                TO DO
-                <!-- Prior 3D segmentation tasks in medical imaging relies heavily on discriminative mapping  -->
+                <!-- TO DO -->
+                Prior 3D segmentation tasks in medical imaging relies heavily on learning discriminative mappings that learns directly from target's appearance to its substructure segmentations. 
+                In this work, we design and validate <i>JointAtlas</i>, a generative mapping approach that jointly models target's appearance and segmentation guided by the implicit field method.
+                Inspired by the multi-atlas segmentation (MAS) idea, we propose a deformable latent template-based method to encode the cardiac structures, and to represent any cardiac morphology
+                by deforming the latent templates learned from most deviated cardiac shapes from the dataset through our proposed supervised template learning (STL) mechanism. To the best of my
+                knowledge, this paper provides the first deformable latent template approach to jointly learn paired segmentation-appearance structures, and it shows superior segmentation performance 
+                over current SOTA generative joint mapping methods.
               </p>
             </td>
           </tr>
@@ -144,11 +149,14 @@
               <strong>Guanqun Liu</strong>, <a href="https://www.andriushchenko.me/">Dr. Pol del Aguila Pla</a>, 
               <a href="https://scholar.google.com/citations?user=laq9cq0AAAAJ&hl=en">Prof. Michael Unser</a>
               <br>
-              [<a href="">Report</a>]
-              [<a href="">Slides</a>]
+              [<a href="https://drive.google.com/file/d/1Q7T2jE3jbws51ab0IlpyMmfzg9yS12Do/view?usp=sharing">Report</a>]
+              [<a href="https://docs.google.com/presentation/d/1COqm_J-POUfid4hpVruHVjVWJthxNkvn/edit?usp=sharing&ouid=108300918368240195367&rtpof=true&sd=true">Presentation Slides</a>]
               <p></p>
               <p>
-                TO DO
+                As high-resolution MRI scans takes longer time to process and previous scans do not reserve comparable resolution quality, super-resolution on low-resolution MRI scans
+                remains a impactful research topic in medical imaging. In this work, we focus on anisotropic MRI (low-resolution along 1-axis) scans, and design the Single Acquisition
+                Isotropic Resolution (SAIR) pipeline - a sample-specific, self-supervised super-resolution pipeline that demonstrated superior performance compared to analytical
+                interpolation algorithms and a time-efficient manner with ~10 minutes end-to-end processing time. I also contributed to SAIR's integration to a C++ CAD labeling environment.
               </p>
             </td>
           </tr>
@@ -158,8 +166,8 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='sony_image'>
-                  <img src='images/sony.jpeg' width="160"></div>
-                <img src='images/sony.jpeg' width="160">
+                  <img src='images/sony.png' width="180"></div>
+                <img src='images/sony.png' width="180">
               </div>
               <script type="text/javascript">
                 function sony_start() {
@@ -179,10 +187,15 @@
               <strong>Guanqun Liu</strong>, <a href="https://www.linkedin.com/in/zoltan-facius-6b424112/?originalSubdomain=de">Zoltan Facius</a>, Dr. Alexander Gatto
               <br>
               <!-- <em>Links:</em> -->
-              [<a href="">Reference</a>]
+              [<a href="https://drive.google.com/file/d/1BXlFJzQKitfN4hZfAi8qyhU19hJ7BwcR/view?usp=sharing">Reference</a>]
               <p></p>
               <p>
-                TO DO
+                This internship work was part of Sony's on-going smart clinical solution of surgical robot, with close collaboration between our computational imaging
+                group and clinical research group in Tokyo. I was responsible for the visual module block design to tackle specular reflections interfering laporoscopic
+                and endoscopic surgeries. With no gold labels in such settings, I designed a specular-free image generator consists of a 2-stage GAN-based network 
+                pretrained on lab-conditioned natural objects with a color distribution-based mask correction mechanism in between to perform separate removal and inpainting
+                functions on specular images. After careful examination by clinicians, I collected a paired specular-diffuse surgical image dataset and obtained a robust 
+                specular reflection removal model through progressive fine-tuning.
               </p>
             </td>
           </tr>
@@ -203,8 +216,8 @@
           <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
             <heading>Education</heading>
-            <p> [2021.9 - 2024.8] M.S. in Computer Science, <a href="https://www.epfl.ch/en/">EPFL</a>, Switzerland </p>
-            <p> [2017.9 - 2021.6] B.Eng. in Electronic and Information Engineering, <a href="https://www.zju.edu.cn/english/">HKPU</a>, Hong Kong</p>
+            <p> [2021.9 - 2024.8] M.S. in Computer Science, <a href="https://www.epfl.ch/en/">EPFL</a>, Switzerland  (Top ~15%) </p>
+            <p> [2017.9 - 2021.6] B.Eng. in Electronic and Information Engineering, <a href="https://www.zju.edu.cn/english/">HKPU</a>, Hong Kong (First Class, Top 10%) </p>
           </td>
         </tr>
         </tbody></table>
@@ -222,10 +235,12 @@
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
         <td style="padding:20px;width:100%;vertical-align:middle">
-          <heading>Miscellanea</heading>
+          <heading>My Words</heading>
           <p> As one turned to PhD applications from full-time job with determination to pursue my research dream, I realize my greatest weakness is lack of 1st-author publications. Thus I'd also like to be considered
-            for RA positions if you think I'm not strong enough for enrolling to a PhD directly in the competitive field of healthcare AI.
+            for RA positions if you think I'm not strong enough for enrolling to a PhD program directly in the competitive field of healthcare AI.
           </p>
+          <p> My mother tongue is Madarin Chinese, but I'm also an intermediate-level Cantonese speaker learned during my Bachelor's. I'm proficient in English (TOEFL: 110, C2 level) and can also communicate in
+            basic French (~ A2) and Japanese (~ N3). If you don't know how to pronounce my name, see <a href="https://www.mdbg.net/chinese/dictionary?page=worddict&email=&wdrst=0&wdqb=%E5%88%98%E5%86%A0%E7%BE%A4">here</a> or simply call me <i>Philip</i>. </p>
           <p> When I'm free from work, I enjoy hiking &#127939;, and swimming &#127946;, and strength training &#127947;. </p>
         </td>
       </tr>
